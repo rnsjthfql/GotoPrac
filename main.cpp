@@ -37,14 +37,14 @@ int main() {
 				y = 0;
 			gotoxy(x, y);
 			cout << "¡Ú ";
-			cout << "( ÁÂÇ¥:" << x << "," << y << " )";
+			cout << "(ÁÂÇ¥:" << x << "," << y << ")";
 			key = _getch();
 		}
 		else if (key == DOWN) {
 			y++;
 			gotoxy(x, y);
 			cout << "¡Ú ";
-			cout << "( ÁÂÇ¥:" << x << "," << y << " )";
+			cout << "(ÁÂÇ¥:" << x << "," << y << ")";
 			key = _getch();
 		}
 		else if (key == LEFT) {
@@ -53,14 +53,14 @@ int main() {
 				x = 0;
 			gotoxy(x, y);
 			cout << "¡Ú ";
-			cout << "( ÁÂÇ¥:" << x << "," << y << " )";
+			cout << "(ÁÂÇ¥:" << x << "," << y << ")";
 			key = _getch();
 		}
 		else if (key == RIGHT) {
 			x++;
 			gotoxy(x, y);
 			cout << "¡Ú ";
-			cout << "( ÁÂÇ¥:" << x << "," << y << " )";
+			cout << "(ÁÂÇ¥:" << x << "," << y << ")";
 			key = _getch();
 		}
 	}
