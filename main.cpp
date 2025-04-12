@@ -31,6 +31,7 @@ int main() {
 
 		key = _getch();
 
+
 		if (key == UP) {
 			y--;
 			if (y < 0)
