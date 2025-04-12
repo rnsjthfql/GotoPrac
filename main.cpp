@@ -44,7 +44,7 @@ int main() {
 			y++;
 			gotoxy(x, y);
 			cout << "¡Ú ";
-			cout << "(ÁÂÇ¥:" << x << "," << y << ")";
+			cout << "(ÁÂÇ¥:" << x << "," << y << ") ";
 			key = _getch();
 		}
 		else if (key == LEFT) {
